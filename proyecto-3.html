@@ -1,19 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica-3</title>
 </head>
+<header>
+    <h1><code>SOFTWARE ENGINEER</code></h1>
+    <!--<img src="imagenes/dev in black 4.jpeg" alt="dev-black">-->
+
+</header>
+
 <body>
-    <header>
-        <h1>SOFTWARE ENGINEER</h1>
-        <p>Software Engineer (Ingeniero de Software)  es un profesional que aplica principios de ingeniería para el diseño,
-            desarrollo, prueba, implementación y mantenimiento de software. Su trabajo implica no solo escribir código, sino también comprender requisitos,
-            diseñar arquitecturas, optimizar el rendimiento y garantizar la calidad del software.</p>
 
-
-    </header>
+    <!--Ejercicio: Página de Perfil Básica
+    Objetivo:
+    Crear una página de perfil personal sencilla utilizando solo HTML.
     
+    La página debe incluir los siguientes elementos:
+    
+    Un título principal .
+    Una imagen (puede ser una imagen de perfil o un avatar).
+    Una seccióncon un breve párrafo.
+    Una lista de tus habilidades (al menos 3).
+    Un enlace a tu red social favorita (por ejemplo, LinkedIn o GitHub).
+    Usa etiquetas semánticas como <header>, <section>, <footer> si lo consideras necesario.-->
+
+    <img width="150px" height="150px" src="imagenes/dev in black 4.jpeg" alt="dev-black">
+
+    <section>
+        <p><code>Software Engineer (Ingeniero de Software)  es un profesional que aplica principios de ingeniería para el diseño,
+            desarrollo, prueba, implementación y mantenimiento de software. Su trabajo implica no solo escribir código, sino también comprender requisitos,
+            diseñar arquitecturas, optimizar el rendimiento y garantizar la calidad del software.</code></p>
+    </section>
+    <h2>lista de habilidades:</h2>
+    <ul>
+        <li>Logica analitica</li>
+        <li>Pensamiento matematico</li>
+        <li>Soft skills</li>
+        <li>Programacion y Codificación</li>
+    </ul>
+
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/c1zXL4eiVSk" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </section>
+
 </body>
+<footer>
+    <p>&copy; <span id="year"></span> Alexis Diaz. Todos los derechos reservados.</p>
+    <script>
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+</footer>
+
+
 </html>
