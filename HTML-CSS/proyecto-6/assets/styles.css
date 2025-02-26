@@ -46,3 +46,60 @@ body{
     height: 100%;
     border-radius: 13rem;
 }
+.user__content{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.user__name{
+    color: white;
+    font-weight: 600;
+    margin-right: 0.3rem;
+    cursor: pointer;
+
+}
+
+.user__nick,
+.user__city{
+    color: white;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.main__follows{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5em;
+    text-align: center;
+    padding: 3rem 4rem;
+
+}
+.follows__follow{
+    border: 2px solid transparent ;
+    border-radius: 10px;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+    width: 33.3%;
+}
+.follows__follow:hover{
+    border: 2px solid rgb(175, 169, 169);
+}
+
+.follow__number{
+    color:#564948;
+    font-weight: 700;
+    font-size: 2rem;
+
+}
+
+.follow__subtitle{
+    color:black;
+    font-weight: 600;
+    font-size: 1.4rem;
+    opacity: 0.5;
+
+
+
+}
